@@ -1,0 +1,27 @@
+{
+  "name": "ws-clone",
+  "version": "1.0.0",
+  "description": "Clone ws for studying purpose",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LamNguyenz/ws-clone.git"
+  },
+  "keywords": [],
+  "author": "thanhlam",
+  "license": "ISC",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/LamNguyenz/ws-clone/issues"
+  },
+  "homepage": "https://github.com/LamNguyenz/ws-clone#readme",
+  "dependencies": {
+    "ws": "^8.20.0"
+  }
+}
