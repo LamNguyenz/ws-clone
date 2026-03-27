@@ -13,15 +13,16 @@ const wss = new WebSocketServer(
 
 wss.on("connection", (ws) => {
   console.log("Connection established");
-  ws.on("open", () => {
-    console.log("Client connected");
-  });
+  console.log(ws);
+  // ws.on("open", () => {
+  //   console.log("Client connected");
+  // });
 
-  ws.on("message", (data) => {
-    console.log("Received: %s", data);
-  });
+  // ws.on("message", (data) => {
+  //   console.log("Received: %s", data);
+  // });
 
-  ws.on("close", () => {
-    console.log("Client disconnected");
-  });
+  // ws.on("close", () => {
+  //   console.log("Client disconnected");
+  // });
 });
