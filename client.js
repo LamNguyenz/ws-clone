@@ -9,7 +9,7 @@ ws.on("open", () => {
 });
 
 ws.on("message", (data) => {
-  console.log("Received: %s", data);
+  console.log("Data: %s", data);
 });
 
 ws.on("close", () => {

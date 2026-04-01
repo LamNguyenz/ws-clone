@@ -13,7 +13,6 @@ const wss = new WebSocketServer(
 
 wss.on("connection", (ws) => {
   console.log("Connection established");
-
   ws.send("Hello mate");
 
   ws.on("open", () => {
