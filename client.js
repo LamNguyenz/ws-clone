@@ -5,7 +5,7 @@ const ws = new WebSocket("ws://localhost:8080/chat");
 
 ws.on("open", () => {
   console.log("Connected");
-  // ws.send("Hello, server! - from Client");
+  ws.send("Hello, server! - from Client");
 });
 
 ws.on("message", (data) => {
